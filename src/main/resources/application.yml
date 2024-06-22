@@ -1,0 +1,6 @@
+spring:
+  security:
+    oauth2:
+      resourceserver:
+        jwt:
+          jwk-set-uri: https://sunbeamorg.b2clogin.com/sunbeamorg.onmicrosoft.com/discovery/v2.0/keys?p=B2C_1_sign_in
